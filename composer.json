@@ -1,0 +1,23 @@
+{
+    "name": "liao/liming",
+    "description": "liming",
+    "license": "Apache-2.0",
+    "keywords": ["liao", "sdk"],
+    "homepage": "https://github.com/liaozongchao/bbb",
+    "type": "library",
+    "authors": [
+        {
+            "name": "liaozongchao",
+            "email": "liaozongchao@yiihua.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/app/functions.php"
+            ],
+        "psr-4": {
+            "App\\": "src/app"
+        }
+    }
+}
